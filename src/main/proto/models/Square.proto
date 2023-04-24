@@ -1,0 +1,20 @@
+syntax = "proto3";
+option java_package = "com.kgds.grpc.square.models";
+
+package square;
+
+message SquareRootRequest {
+  int32 number = 1;
+}
+
+message SquareRootResponse {
+  int32 number = 1;
+  double squareroot= 2;
+}
+
+
+
+
+
+
+

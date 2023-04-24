@@ -1,0 +1,8 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenLocal()
+    }
+}
+rootProject.name = 'square'
+def os_detected_classifier = org.gradle.internal.os.OperatingSystem.current()
